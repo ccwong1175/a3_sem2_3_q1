@@ -1,0 +1,11 @@
+<form action="/restaurant/{{restaurant._id}}/edit" method='POST'>
+  名稱: <input type="text" name='name' value='{{restaurant.name}}'><br>
+  類別： <input type="text" name='category' value='{{restaurant.category}}'><br>
+  地址： <input type="text" name='location' value='{{restaurant.location}}'><br>
+  電話： <input type="text" name='phone' value='{{restaurant.phone}}'><br>
+  描述: <input type="text" name='description' value='{{restaurant.description}}'><br>
+  評分: <input type='text' name='rating' value='{{restaurant.rating}}'><br>
+  圖片來源: <input type='text' name='image' value='{{restaurant.image}}'><br>
+  <button type='submit'>儲存</button>
+</form>
+<a href="/"><button>返回首頁</button></a>
